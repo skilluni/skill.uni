@@ -1,0 +1,10 @@
+import { Link } from "react-router-dom";
+export default function NotFoundPage() {
+  return (
+    <div className="min-h-screen flex flex-col items-center justify-center gap-4">
+      <h1 className="font-display text-3xl text-brand-blue">404</h1>
+      <p className="text-ink-muted">Page not found.</p>
+      <Link to="/" className="text-brand-blue underline">Go home</Link>
+    </div>
+  );
+}
