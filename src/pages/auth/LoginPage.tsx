@@ -1,3 +1,0 @@
-export default function LoginPage() {
-  return <div className="min-h-screen flex items-center justify-center font-display text-xl">Login — coming soon</div>;
-}
